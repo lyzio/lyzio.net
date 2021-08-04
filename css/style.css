@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import "font/flaticon.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+html {
+  background-color: #f3f3f3;
+  background-size: 150%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  padding-left: 3%;
+  font-size: 3em;
+  margin-bottom: 0.1%;
+  color: #f53b57;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  padding-left: 2%;
+  font-size: 2em;
+  margin-top: 1%;
+  color: #f53b57;
+}
+
+h2:hover{
+  text-decoration: underline 5px;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  padding-left: 3%;
+  font-size: 1em;
+  margin-top: 0%;
+  color: #3c40c6;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+  content: "@";
+  color: #12041C;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+li {
+  color: #12041C;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+.link-img {
+  width: 8%;
+  height: auto;
+  margin-right: 2%;
+  opacity: 0.5;
+  transition: 0.1s;
+  margin-bottom: 3%;
+}
+
+.link-img:hover {
+opacity: 1
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center | space-between;
+  width: 90%;
+  max-width: 1200px;
+  height: 90%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: dashed 5px #12041C;
+  padding: 0,5%;
+  /* filter: drop-shadow(3px 3px 6px rgba(17, 8, 145, 0.7));
+  */
+}
+
+#main-header {
+  order: 1;
+  align-self: flex-start;
+  width: 100%;
+}
+
+#main-photo {
+  order: 2;
+  width: 100%;
+}
+
+#links {
+  order: 3;
+  flex-shrink: 1;
+  width: 98%;
+  margin: auto;
+  padding: 1%;
+  border-bottom: dashed 5px #12041C;
+}
+
+#school {
+  flex-grow: 2;
+  order: 8;
+  margin-top:1%;
+ width: 45%;
+ margin-bottom: 1%;
+}
+
+#experience {
+  flex-grow: 3;
+  order: 5;
+  margin-top:1%;
+ width: 45%;
+  margin-bottom: 1%;
+}
+
+#nonprofit {
+  flex-grow: 2;
+  order: 7;
+ width: 45%;
+}
