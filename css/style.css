@@ -72,6 +72,13 @@ li {
 opacity: 1
 }
 
+.profile-img {
+  width: 100%;
+  height: auto;
+  margin: 10%;
+  border-radius: 100%;
+}
+
 #main {
   display: flex;
   flex-direction: row;
@@ -92,12 +99,12 @@ opacity: 1
 #main-header {
   order: 1;
   align-self: flex-start;
-  width: 100%;
+  width: 70%;
 }
 
 #main-photo {
   order: 2;
-  width: 100%;
+  width: 20%;
 }
 
 #links {
