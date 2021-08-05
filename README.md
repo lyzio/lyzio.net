@@ -1,2 +1,2 @@
 # lyzio.net
-My personal homepage
+My personal homepage, and digital cv.
